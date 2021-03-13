@@ -1,0 +1,39 @@
+{
+    "name": "swahili-blog",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "ejs": "~2.6.1",
+        "express": "~4.16.1",
+        "gulp-csso": "^4.0.1",
+        "gulp-install": "^1.1.0",
+        "helmet": "^4.4.1",
+        "http-errors": "~1.6.3",
+        "mongoose": "^5.11.17",
+        "morgan": "~1.9.1",
+        "nodemon": "^2.0.7",
+        "onscreen": "^1.1.3"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-changed": "^3.1.1",
+        "gulp-clean-css": "^3.10.0",
+        "gulp-coffee": "^2.3.2",
+        "gulp-concat": "^2.6.0",
+        "gulp-imagemin": "^5.0.3",
+        "gulp-install": "^1.1.0",
+        "gulp-plumber": "^1.1.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.0",
+        "jquery": "^3.2.1",
+        "streamqueue": "^1.1.1"
+    }
+}
